@@ -4,10 +4,10 @@ This repository provides a collection of common data structure implementations i
 
 ## Installation
 
-You can install the `vipinlumous-ds` package from npm using the following command:
+You can install the `vipinlumos-ds` package from npm using the following command:
 
 ```bash
-npm install vipinlumous-ds
+npm install vipinlumos-ds
 ``` 
 
 
