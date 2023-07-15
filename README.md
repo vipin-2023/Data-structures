@@ -1,3 +1,14 @@
+# Vipinlumous Data Structures
+
+This repository provides a collection of common data structure implementations in TypeScript.
+
+## Installation
+
+You can install the `vipinlumous-ds` package from npm using the following command:
+
+```bash
+npm install vipinlumous-ds
+``` 
 
 // Usage examples
 const linkedList = new LinkedList<number>();
