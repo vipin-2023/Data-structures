@@ -10,7 +10,11 @@ You can install the `vipinlumous-ds` package from npm using the following comman
 npm install vipinlumous-ds
 ``` 
 
-// Usage examples
+
+## Example 
+
+```bash
+
 const linkedList = new LinkedList<number>();
 linkedList.addToHead(3);
 linkedList.addToHead(2);
@@ -109,3 +113,4 @@ console.log(hashSet.size());
 hashSet.delete("banana");
 console.log(hashSet.values());
 console.log(hashSet.isEmpty());
+``` 
