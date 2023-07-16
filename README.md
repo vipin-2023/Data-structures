@@ -13,6 +13,7 @@ npm install vipinlumos-ds
 
 ## Example 
 
+Linked list
 ```bash
 
 const linkedList = new LinkedList<number>();
@@ -20,7 +21,9 @@ linkedList.addToHead(3);
 linkedList.addToHead(2);
 linkedList.addToHead(1);
 linkedList.print();
-
+``` 
+Stack
+```bash
 const stack = new Stack<number>();
 stack.push(1);
 stack.push(2);
@@ -30,7 +33,9 @@ console.log(stack.size());
 stack.pop();
 console.log(stack.peek());
 console.log(stack.size());
-
+``` 
+Queue
+```bash
 const queue = new Queue<number>();
 queue.enqueue(1);
 queue.enqueue(2);
@@ -40,7 +45,9 @@ console.log(queue.size());
 queue.dequeue();
 console.log(queue.peek());
 console.log(queue.size());
-
+``` 
+Tree
+```bash
 const tree = new Tree<number>();
 tree.setRoot(1);
 const root = tree.getRoot();
@@ -54,7 +61,9 @@ if (root) {
   console.log(root.data);
   console.log(root.children.length);
 }
-
+``` 
+Graph
+```bash
 const graph = new Graph<string>();
 graph.addEdge("A", "B");
 graph.addEdge("A", "C");
@@ -65,7 +74,9 @@ console.log(graph.getNeighbors("B"));
 console.log(graph.getNeighbors("C"));
 console.log(graph.getNeighbors("D"));
 console.log(graph.getNeighbors("E"));
-
+``` 
+Trie
+```bash
 const trie = new Trie();
 trie.insert("apple");
 trie.insert("banana");
@@ -76,7 +87,9 @@ console.log(trie.search("grape"));
 console.log(trie.startsWith("app"));
 console.log(trie.startsWith("ora"));
 console.log(trie.startsWith("ban"));
-
+``` 
+Hash map
+```bash
 const hashmap = new HashMap<string, number>();
 hashmap.put("apple", 1);
 hashmap.put("banana", 2);
@@ -88,7 +101,9 @@ hashmap.remove("banana");
 console.log(hashmap.contains("banana"));
 console.log(hashmap.getSize());
 console.log(hashmap.isEmpty());
-
+``` 
+Heap
+```bash
 const minHeap = new MinHeap();
 minHeap.insert(5);
 minHeap.insert(8);
@@ -102,7 +117,9 @@ console.log(minHeap.removeMin());
 minHeap.insert(1);
 console.log(minHeap.peek());
 minHeap.print();
-
+``` 
+Hash set
+```bash
 const hashSet = new HashSet<string>();
 hashSet.add("apple");
 hashSet.add("banana");
