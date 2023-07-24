@@ -1,6 +1,6 @@
 {
-  "name": "vipinlumos-ds",
-  "version": "1.0.2",
+  "name": "loki-ds",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
